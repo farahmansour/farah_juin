@@ -35,6 +35,7 @@ public class Exercice1 {
 		}
 		System.out.println("Il y a " + count + "caractères 'a' dans le texte");
 	entree.close();
+	
 	}catch (FileNotFoundException fnf) {
 		System.out.println("Le fichier ne peut pas etre lu");
 		
